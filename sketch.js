@@ -72,7 +72,8 @@ function draw(){
 
 //console.log(i)
    // levelEditorRun();
-   fill(255,100)
+  noStroke();
+   fill(255,250,0,200)
    ellipse((click.j+1)*gb,(click.i+1)*gb,gb*0.5,gb*0.5);
 
 }
